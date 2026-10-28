@@ -36,5 +36,3 @@ Setup proof: Take a screenshot showing the HTML file in VS Code and the webpage 
 ## Conclusion
 
 After setting up VS Code, Node.js, and Live Server, the development environment is ready for basic web development. VS Code is used to write code, Node.js runs JavaScript outside the browser, and Live Server helps preview webpages locally.
-
-Note: Attach your actual screenshots as proof of installation and setup. Do not include screenshots of example setups as if they were taken from your computer.

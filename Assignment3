@@ -45,5 +45,3 @@ These commands create a folder, navigate into it, and then return to the parent 
 ## Conclusion
 
 Through this practice sheet, I learned how to navigate directories, list files, create folders, and move between directories using terminal commands. These skills are useful for managing projects and working with development tools such as VS Code and Node.js.
-
-Proof of completion: Attach a screenshot of your terminal showing the commands you executed and their output.
