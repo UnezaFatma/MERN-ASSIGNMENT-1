@@ -1,5 +1,7 @@
 # Assignment 1 – What Happens Between Typing a URL and Seeing the Page?
 
+Uneza
+
 When we type a URL (Uniform Resource Locator) into a web browser and press Enter, several processes take place before the webpage appears on the screen. These processes involve the browser, DNS, the internet, web servers, and rendering engines.
 
 First, the browser checks the URL to identify the website the user wants to visit. Then, the browser uses the Domain Name System (DNS) to translate the domain name, such as `www example.com`, into an IP address. This address helps the browser locate the correct web server. Sometimes, the IP address is already stored in the browser's cache, which saves time.
