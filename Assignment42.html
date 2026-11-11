@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Audit Fix</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 30px auto;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+        }
+
+        .main-content,
+        .sidebar {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .main-content img {
+            width: 100%;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        /* Tablet Responsive Fix */
+        @media (max-width: 768px) {
+            .content {
+                grid-template-columns: 1fr;
+            }
+
+            nav a {
+                margin: 8px;
+            }
+        }
+
+        /* Mobile Responsive Fix */
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 22px;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px;
+            }
+
+            .container {
+                width: 95%;
+                margin: 15px auto;
+            }
+
+            .main-content,
+            .sidebar {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Responsive Audit Fix</h1>
+        <p>Website Responsive on All Devices</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="content">
+
+            <div class="main-content">
+                <h2>Main Content</h2>
+                <p>
+                    This website uses responsive CSS techniques
+                    to adjust its layout on different screen sizes.
+                </p>
+
+                <img src="https://placehold.co/800x350"
+                     alt="Sample responsive image">
+
+                <p>
+                    Images automatically resize according to
+                    the available screen width.
+                </p>
+            </div>
+
+            <div class="sidebar">
+                <h2>Sidebar</h2>
+                <p>
+                    This sidebar moves below the main content
+                    on smaller screens.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Responsive Audit Fix</p>
+    </footer>
+
+</body>
+</html>
